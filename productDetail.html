@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoe Store</title>
+    <!-- Resset Css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <!-- Use Icon in BoxIcon -->
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./assests/Grid.css">
+    <link rel="stylesheet" href="./assests/base.css">
+    <link rel="stylesheet" href="./assests/productDetail.css">
+    <link rel="stylesheet" href="./assests/main.css">
+    
+</head>
+<body>
+    <div class="app">
+        <div class="header grid wide">
+            <div class="sigin-signup">
+                <!-- <a href="login.html">ĐĂNG NHẬP</a>
+                <span>/</span>
+                <a href="login.html">ĐĂNG KÝ</a> -->
+            </div>
+
+            <a href="index.html" class="logo">
+                <img src="http://mauweb.monamedia.net/converse/wp-content/uploads/2019/05/logo-mona.png"  class="logo__image" alt="logo">
+            </a>
+
+            <div class="search__cart">
+                <div class="search">
+                    <i class='bx bx-search search__icon'></i>
+                    <div class="search__input">
+                            <input type="text" placeholder="Tìm kiếm">
+                            <i class='bx bx-search search__icon'></i>
+                    </div>
+                </div>
+    
+                <div class="cart" >
+                    <div class="cart__title">
+                        GIỎ HÀNG / 
+                        <div style="display: inline-block;" class="cart__price-wrapper">
+                           
+                        </div>
+                        
+                    </div>
+                    <i class='bx bx-cart-alt' ></i>
+                    <div class="showcart">
+                        <div class="showcart__wrapper">
+                                    <!-- showcart item -->
+                            <div class="showcart__product__wrapper"></div>
+                            <div class="showcart__total-price"></div>
+                            <div class="showcart__action">
+                                <a href="CartPage.html"><button class="btn__show-cart">XEM GIỎ HÀNG</button></a> 
+                                <a href="PayPage.html"><button class="btn__show-pay">THANH TOÁN</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- PODUCT DETAIL MAIN -->
+        <div class="product-detail-main">
+            <div class="grid wide">            
+                <div class="row">
+                    <div class="product-detail-main__left col l-5 m-5 c-12">
+                        <div class="product-detail-image-main">
+                            <div class="image-wrapper">
+                                <img src="./Image/air_JD1_retro_high_OG.png" alt="">
+                            </div>
+                        </div>
+    
+                        <div class="list-image-detail">
+                            <div class="item-image-detail">
+                                <img src="./Image/Air_JD1_SiEMPRE_Famila.png" alt="">
+                            </div>
+    
+                            <div class="item-image-detail">
+                                <img src="./Image/Air_JD1_Switch_Pink_Volt.png" alt="">
+                            </div>
+    
+                            <div class="item-image-detail">
+                                <img src="./Image/Aqua_Black.png" alt="">
+                            </div>
+
+                            <div class="item-image-detail">
+                                <img src="./Image/Aqua_Black.png" alt="">
+                            </div>
+                        </div>
+    
+                    </div>
+                    <div class="product-detail-main__right l-7 m-7 c-12">
+                        <div class="product-detail-main__right-wrapper">
+                            <div class="product-action">
+                                <h2 class="product-action__name">Air JD1 To My First Coach</h2>
+                                <h2 class="product-action__price">55 <span>$</span></h2>
+                                <label for="" class="product-action__amount-label">Số lượng</label>
+                                <input  class="product-action__amount-input" type="number" min="1" max="10" width="50px" value="1">
+                                <button class="product-action__btn-add">Add to Cart</button>
+                            </div>
+                            <div class="product-details">
+                                <h2>Product Details</h2>
+                                <p class="product-details-content">
+                                    propduct-7 Rooted to athletics DNA, the Air Max Dawn is made from at least 20% 
+                                    recycled material by weight.Synthetic suede and other materials blend vintage running 
+                                    vibes with fresh details.Nike Air cushioning delivers a feel-good forecast for the day.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Footer -->
+        <div class="footer">
+            <div class="grid wide">
+                <div class="row">
+                    <div class="col l-3">
+                        <h2 class="footer-title">Giới thiệu</h2>
+                        <p>Chào mừng bạn đến với ngôi nhà Converse! Tại đây, 
+                            mỗi một dòng chữ, mỗi chi tiết và hình ảnh đều 
+                            là những bằng chứng mang dấu ấn lịch sử Converse 100 năm, 
+                            và đang không ngừng phát triển lớn mạnh.
+                        </p>
+                    </div>
+
+                    <div class="col l-3">
+                        <h2 class="footer-title">ĐỊA CHỈ</h2>
+                        <div class = "footer__content">
+                            <i class='bx bxs-location-plus'></i>
+                            <span>319 C16 Lý Thường Kiệt, Phường 15, Quận 11, Tp.HCM</span>
+                        </div>
+
+                        <div class = "footer__content">
+                            <i class='bx bxs-phone-call' ></i>
+                            <a class="footer__content-call" href="tel:0769220162">076 922 0162</a>
+                        </div>
+                        <div class = "footer__content">
+                            <i class='bx bx-mail-send' ></i>
+                            <a  class="footer__content-mail" href="mailto:mr.minhoan@gmail.com">demonhunterg@gmail.com</a>
+                        </div>
+                        
+                    </div>
+
+                    <div class="col l-3">
+                        <h2 class="footer-title">MENU</h2>
+                    </div>
+
+                    <div class="col l-3">
+                        <h2 class="footer-title">MẠNG XÃ HỘI</h2>
+                        <div class="social">
+                            <a class="social__icon" href="#"><i class=' bx bxl-facebook'></i></a> 
+                            <a class="social__icon" href="#"><i class=' bx bxl-instagram-alt' ></i></a> 
+                            <a class="social__icon" href="#"><i class=' bx bxl-twitter' ></i></a> 
+                            <a class="social__icon" href="#"><i class=' bx bxl-pinterest-alt' ></i></a> 
+                            <a class="social__icon" href="#"><i class=' bx bx-rss' ></i></a> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <script src="./javascript/productDetail.js" type="module"></script>
+    <script src="./javascript/xulyCart.js" ></script>
+</body>
+</html>

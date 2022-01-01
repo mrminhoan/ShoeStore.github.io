@@ -1,0 +1,119 @@
+.container{
+    background:var(--white-color);
+    
+}
+.imformation-customer-heading h3{
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+.customer-imformation-form{
+    margin-top: 10px;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+form .input .form-group{
+    display: flex;
+    flex-direction: column;
+}
+.input + .input
+{
+    margin-top: 20px;
+}
+
+label + input{
+    margin-top: 5px;
+}
+textarea{
+    outline: none;
+    border: 1px solid #ccc;
+    max-width: 580px;
+    
+}
+.form-group input {
+    height: 40px;
+    outline: none;
+    border: 1px solid #ccc;
+}
+.form-group input,
+.input-note textarea{
+    border-radius: 5px;
+}
+.form-group input:focus {
+    box-shadow: 0 0 3px #999;
+}
+
+.input-name .form-group{
+    flex: 1;
+}
+
+
+/* CHECKOUT */
+.checkout{
+    padding-top: 20px;
+}
+.checkout-sidebar{
+    padding: 0 30px;
+    
+}
+.checkout-sidebar h3{
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+.checkout-sidebar__heading{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #ccc;
+}
+.checkout-sidebar__heading h4{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.checkout-sidebar__content{
+    /* padding-top: 15px; */
+    font-size: 1.3rem;
+}
+.group-product{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+    border-bottom: 1px solid #ccc;
+}
+.group-product__price {
+    font-weight: 600;
+}
+.group-total-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+    border-bottom: 1px solid #ccc;
+}
+.group-total-wrapper p{
+    font-weight: 600;
+}
+.checkout-sidebar__payment-method{
+    padding-top: 15px;
+    font-size: 1.3rem;
+}
+.payment-method__cod{
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+.checkout-sidebar__payment-method li label{
+    font-weight: 600;
+}
+.payment_box{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.payment-method__bank{
+    padding-top: 15px;
+}
+.order{
+    padding-top: 30px;
+    padding-right: 25px;
+    display: flex;
+    justify-content: flex-end;
+    
+}

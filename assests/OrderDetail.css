@@ -1,0 +1,95 @@
+.container{
+    background:var(--white-color);
+    
+}
+.order-detail-wrapper{
+    margin: 20px 0 50px;
+    
+}
+.oder-detail-title h2{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.order-detail-content-wrapper{
+    margin-top: 25px;
+}
+.order-detail-content-title {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 8px;
+    border-bottom: 3px solid #ccc;
+}
+.order-detail-content-title h2{
+    font-size: 1.4rem;
+    font-weight: 600;
+ 
+}
+.grow-product-wrapper{
+    margin-top: 10px;
+    font-size: 1.4rem;
+    font-weight: 600;
+    padding-bottom: 8px;
+}
+.product-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+.grow-pay-method-wrapper{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.4rem;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #ccc;
+}
+.grown-total-wrapper{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.4rem;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #ccc;
+}
+.grow-pay-method p,
+.grown-total-wrapper{
+    font-weight: 600;
+}
+
+.entry-content{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fafafa;
+    box-shadow: 0 0 4px #999;
+}
+.entry-content h3{
+    font-size: 1.8rem;
+    color: #7a9c59;
+    font-weight: 600;
+}
+.entry-content ul{
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+.entry-content ul li{
+    margin: 20px 0;
+}
+
+.entry-content ul li span{
+    font-weight: 600;
+}
+
+.customer-information-wrapper{
+    margin-top: 20px;
+    font-size: 1.3rem;
+}
+.customer-information-group{
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-top: 15px;
+}

@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoe Store</title>
+    <!-- Resset Css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <!-- Use Icon in BoxIcon -->
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./assests/Grid.css">
+    <link rel="stylesheet" href="./assests/base.css">
+    <link rel="stylesheet" href="./assests/main.css">
+    <link rel="stylesheet" href="./assests/CartPage.css">
+    <link rel="stylesheet" href="./assests/pay.css">
+    
+</head>
+<body>
+    <div class="app">
+        <div class="header grid wide">
+            <div class="sigin-signup">
+                <a href="#">ĐĂNG NHẬP</a>
+                <span>/</span>
+                <a href="#">ĐĂNG KÝ</a>
+            </div>
+
+            <a href="index.html" class="logo">
+                <img src="http://mauweb.monamedia.net/converse/wp-content/uploads/2019/05/logo-mona.png"  class="logo__image" alt="logo">
+            </a>
+
+            <div class="search__cart">
+                <div class="search">
+                    <i class='bx bx-search search__icon'></i>
+                    <div class="search__input">
+                        <input type="text" placeholder="Tìm kiếm">
+                        <i class='bx bx-search search__icon'></i>
+                    </div>
+                </div>
+              
+                <a  href="CartPage.html" class="cart">
+                    <p class="cart__title">
+                        GIỎ HÀNG / 
+                        <!-- <span class="cart__price">2.950.000</span>
+                        <span class="unit"> đ</span> -->
+                    </p>
+                    <i class='bx bx-cart-alt' ></i>
+
+                    <!-- <div class="showcart">
+                        <div class="showcart__wrapper">
+                                          
+                            <div class="showcart__product">
+                                <div class="showcart__product-img">
+                                    <img src="Image/Air_JD1_SiEMPRE_Famila.png" alt="">
+                                </div>
+                                <div class="showcart__product-title">
+                                    <span class="showcart__product-name">Air JD1 Dark Mocha</span> <br>
+                                    <p class="showcart__product-price">
+                                        <span class="showcart__product-count">2</span>
+                                        x
+                                        <span>250000</span>
+                                        đ
+                                    </p>
+                                </div>
+                                <i class='bx bx-x-circle'></i>
+                            </div>
+                            
+                            <div class="showcart__total-price">
+                                <p>Tổng cộng: <span>2500000</span>đ</p>
+                            </div>
+                            <div class="showcart__action">
+                                <a href="#"><button class="btn__show-cart">XEM GIỎ HÀNG</button></a> 
+                                <a href="#"><button class="btn__show-pay">THANH TOÁN</button></a>
+                            </div>
+                        </div>
+                    </div> -->
+                </a>
+            </div>
+        </div>
+        <div class="container">
+                     <!-- Pagination -->
+            <div class="pagination gird">
+                <ul class="pagination__list grid wide ">
+                    <a href="#">
+                        <li class="pagination__item">HOME</li>
+                    </a>
+
+                    <a href="#">
+                        <li class="pagination__item"> INTRODUCE</li>
+                    </a>
+
+                    <a href="#">
+                        <li class=" pagination__item menu__dropdown ">
+                            FEMALE
+                            <ul class="female menu__dropdown-list">
+                                <li class="menu__dropdown-item">FEATURED</li>
+                                <li class="menu__dropdown-item">SHOES</li>
+                                <li class="menu__dropdown-item">CLOTHING</li>
+                                <li class="menu__dropdown-item">SPORT</li>
+                            </ul>
+                        </li>
+                    </a>
+
+                    <a href="#">
+                        <li class="  pagination__item  menu__dropdown">
+                            MALE
+                            <ul class=" male menu__dropdown-list">
+                                <li class="menu__dropdown-item">FEATURED</li>
+                                <li class="menu__dropdown-item">SHOES</li>
+                                <li class="menu__dropdown-item">CLOTHING</li>
+                                <li class="menu__dropdown-item">SPORT</li>
+                            </ul>
+                        </li>
+                    </a>
+
+                    <a href="#">
+                        <li class="pagination__item">CHILDREN</li>
+                    </a>
+
+                    <a href="#">
+                        <li class="pagination__item">OTHER ACCESSORIES</li>
+                    </a>
+
+                    <a href="#">
+                        <li class="pagination__item">NEWS</li>
+                    </a>
+
+                    <a href="#">
+                        <li class="pagination__item">CONTACT</li>
+                    </a>
+                </ul>
+            </div>
+
+
+                      <!-- Content -->
+            <div class="main__cart grid wide">
+                <div class="row">
+                    <div class="main__cart__information col l-6 m-6 c-12">
+                       <div class="imformation-customer">
+                           <div class="imformation-customer-heading">
+                               <h3>THÔNG TIN THANH TOÁN</h3>
+                           </div>
+                           <div class="customer-imformation-form">
+                               <form action="">
+                                   <div class="input input-name">
+                                        <div class="form-group">
+                                            <label for="">Họ và tên</label>
+                                            <input type="text" placeholder="Văn Minh Hoàng">   
+                                        </div>
+                                   </div>
+
+                                    <div class="input input-address">
+                                       <div class="form-group">
+                                           <label for="">Địa chỉ</label>
+                                           <input type="text" placeholder="Số nhà / Đường / Phường / Quận / Thành phố">
+                                       </div>
+                                    </div>
+
+                                    <div class="input input-phone">
+                                        <div class="form-group">
+                                            <label for="">Số điện thoại</label>
+                                            <input type="text" placeholder="Số điện thoại">
+                                        </div>
+                                    </div>
+
+                                    <div class="input input-email">
+                                        <div class="form-group">
+                                            <label for="">Địa chỉ Email</label>
+                                            <input type="text" placeholder="abc@gmail.com">
+                                        </div>
+                                    </div>
+
+                                    <div class="input input-note">
+                                        <div class="form-group">
+                                            <label for="">Ghi chú đơn hàng</label>
+                                            <textarea name="" id="" cols="30" rows="10"></textarea>
+                                        </div>
+                                    </div>
+                               </form>
+                           </div>
+                       </div>
+                    </div>
+
+                    <div class="checkout col l-6 m-6 c-12">
+                        <div class="checkout-wrapper">
+                            <div class="checkout-sidebar">
+                                <h3>ĐƠN HÀNG CỦA BẠN</h3>
+                                <div class="checkout-sidebar__heading">
+                                    <h4 class="checkout-sidebar__header">SẢN PHẨM</h4>
+                                    <h4 class="checkout-sidebar__header">TỔNG</h4>
+                                </div>
+                                <div class="checkout-sidebar__content">
+                                    <div class="group-product-wrapper">
+                                        <!-- <div class="group-product">
+                                            <p class="group-product__name">
+                                                <span>Air_JD1_retro_high_OG </span>
+                                                x 
+                                                <span>1</span>
+                                            </p>
+                                            <p class="group-product__price"><span >12500000</span>đ</p>
+                                        </div> -->
+                                    </div>
+                                    <div class="group-total-wrapper">
+                                        <span>Tổng</span>
+                                        <div class="group-total">
+                                            <p><span>1250000</span>đ</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <ul class="checkout-sidebar__payment-method">
+                                    <li class=" payment-method payment-method__cod">
+                                        <input type="radio" id="method__cod" class="input-radio" name="payment__method" value="cod"  checked>
+                                        <label for="method__cod">Trả tiền mặt khi nhận hàng</label>
+                                        <div class="payment_box" >
+                                            <p>Trả tiền mặt khi nhận hàng</p>
+                                        </div>
+                                    </li>
+
+                                    <li class=" payment-method payment-method__bank">
+                                        <input type="radio" id="method__bank" class="input-radio" name="payment__method" value="bank">
+                                        <label for="method__bank">Chuyển khoản ngân hàng</label>
+                                        <div class="payment_box" >
+                                            <p>Chuyển khoản thanh toán trước khi nhận hàng</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="order">
+                                <a href="OrderDetail.html"><button class="btn-order primary_btn">ĐẶT HÀNG</button></a>
+                                
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            
+
+
+        </div>
+        <div class="footer">
+            <div class="grid wide">
+                <div class="row">
+                    <div class="col l-3">
+                        <h2 class="footer-title">Giới thiệu</h2>
+                        <p>Chào mừng bạn đến với ngôi nhà Converse! Tại đây, 
+                            mỗi một dòng chữ, mỗi chi tiết và hình ảnh đều 
+                            là những bằng chứng mang dấu ấn lịch sử Converse 100 năm, 
+                            và đang không ngừng phát triển lớn mạnh.
+                        </p>
+                    </div>
+
+                    <div class="col l-3">
+                        <h2 class="footer-title">ĐỊA CHỈ</h2>
+                        <div class = "footer__content">
+                            <i class='bx bxs-location-plus'></i>
+                            <span>319 C16 Lý Thường Kiệt, Phường 15, Quận 11, Tp.HCM</span>
+                        </div>
+
+                        <div class = "footer__content">
+                            <i class='bx bxs-phone-call' ></i>
+                            <a class="footer__content-call" href="tel:0769220162">076 922 0162</a>
+                        </div>
+                        <div class = "footer__content">
+                            <i class='bx bx-mail-send' ></i>
+                            <a  class="footer__content-mail" href="mailto:mr.minhoan@gmail.com">demonhunterg@gmail.com</a>
+                        </div>
+                        
+                    </div>
+
+                    <div class="col l-3">
+                        <h2 class="footer-title">MENU</h2>
+                    </div>
+
+                    <div class="col l-3">
+                        <h2 class="footer-title">MẠNG XÃ HỘI</h2>
+                        <div class="social">
+                            <a class="social__icon" href="#"><i class=' bx bxl-facebook'></i></a> 
+                            <a class="social__icon" href="#"><i class=' bx bxl-instagram-alt' ></i></a> 
+                            <a class="social__icon" href="#"><i class=' bx bxl-twitter' ></i></a> 
+                            <a class="social__icon" href="#"><i class=' bx bxl-pinterest-alt' ></i></a> 
+                            <a class="social__icon" href="#"><i class=' bx bx-rss' ></i></a> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./javascript/xulyFormMuaHang.js" ></script>
+    <script>showsanphamCheckout()</script>
+</body>
+</html>

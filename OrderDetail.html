@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoe Store</title>
+    <!-- Resset Css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <!-- Use Icon in BoxIcon -->
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./assests/Grid.css">
+    <link rel="stylesheet" href="./assests/base.css">
+    <link rel="stylesheet" href="./assests/main.css">
+    <link rel="stylesheet" href="./assests/OrderDetail.css">
+
+    
+</head>
+<body>
+    <div class="app">
+        <div class="header grid wide">
+            <div class="sigin-signup">
+                <a href="#">ĐĂNG NHẬP</a>
+                <span>/</span>
+                <a href="#">ĐĂNG KÝ</a>
+            </div>
+
+            <a href="index.html" class="logo">
+                <img src="http://mauweb.monamedia.net/converse/wp-content/uploads/2019/05/logo-mona.png"  class="logo__image" alt="logo">
+            </a>
+
+            <div class="search__cart">
+                <div class="search">
+                    <i class='bx bx-search search__icon'></i>
+                    <div class="search__input">
+                        <input type="text" placeholder="Tìm kiếm">
+                        <i class='bx bx-search search__icon'></i>
+                    </div>
+                </div>
+              
+                <a  href="CartPage.html" class="cart">
+                    <p class="cart__title">
+                        GIỎ HÀNG / 
+                        <!-- <span class="cart__price">2.950.000</span>
+                        <span class="unit"> đ</span> -->
+                    </p>
+                    <i class='bx bx-cart-alt' ></i>
+                </a>
+             
+            </div>
+        </div>
+        <div class="container">
+                     <!-- Pagination -->
+            <div class="pagination gird">
+                <ul class="pagination__list grid wide ">
+                    <a href="#">
+                        <li class="pagination__item">HOME</li>
+                    </a>
+
+                    <a href="#">
+                        <li class="pagination__item"> INTRODUCE</li>
+                    </a>
+
+                    <a href="#">
+                        <li class=" pagination__item menu__dropdown ">
+                            FEMALE
+                            <ul class="female menu__dropdown-list">
+                                <li class="menu__dropdown-item">FEATURED</li>
+                                <li class="menu__dropdown-item">SHOES</li>
+                                <li class="menu__dropdown-item">CLOTHING</li>
+                                <li class="menu__dropdown-item">SPORT</li>
+                            </ul>
+                        </li>
+                    </a>
+
+                    <a href="#">
+                        <li class="  pagination__item  menu__dropdown">
+                            MALE
+                            <ul class=" male menu__dropdown-list">
+                                <li class="menu__dropdown-item">FEATURED</li>
+                                <li class="menu__dropdown-item">SHOES</li>
+                                <li class="menu__dropdown-item">CLOTHING</li>
+                                <li class="menu__dropdown-item">SPORT</li>
+                            </ul>
+                        </li>
+                    </a>
+
+                    <a href="#">
+                        <li class="pagination__item">CHILDREN</li>
+                    </a>
+
+                    <a href="#">
+                        <li class="pagination__item">OTHER ACCESSORIES</li>
+                    </a>
+
+                    <a href="#">
+                        <li class="pagination__item">NEWS</li>
+                    </a>
+
+                    <a href="#">
+                        <li class="pagination__item">CONTACT</li>
+                    </a>
+                </ul>
+            </div>
+
+
+                      <!-- Content -->
+                      <div class="main-order-detail grid wide">
+                        <div class="row">
+                            <div class="order-detail-wrapper col l-7 m-7 c-12">
+                                <div class="oder-detail-title">
+                                    <h2>Chi tiết đơn hàng</h2>
+                                </div>
+                                
+                                <div class="order-detail-content-wrapper">
+                                    <div class="order-detail-content-title">
+                                        <h2>SẢN PHẨM</h2>
+                                        <h2>TỔNG</h2>
+                                    </div>
+                                    <div class="grow-product-wrapper">
+                                        <div class="product-wrapper">
+                                            <!-- <p class="grow-product__name">
+                                                <span class="product-name">Chuck Taylor Classic  </span>
+                                                x
+                                                <span class="product-quantity">3</span>
+                                            </p>
+                                            <p class="group-product__price"><span >12231</span>$</p> -->
+                                        </div>
+                                    </div> 
+                                    <div class="grow-pay-method-wrapper">
+                                        <p>Phương thức thanh toán:</p>
+                                        <div class="grow-pay-method">
+                                            <!-- <span>Trả tiền mặt khi nhận hàng</span> -->
+                                        </div>
+                                    </div>
+
+                                    <div class="grown-total-wrapper">
+                                        <p>Tổng hóa đơn:</p>
+                                        <div class="grown-total">
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+        
+                            
+                            <div class="entry-content col l-5 m-7 c-12">
+                                <!-- <h3>Cảm ơn bạn. Đơn hàng của bạn đã được xác nhận.</h3> -->
+                                <h3>Thông tin nhận hàng</h3>
+                                <div class="customer-information-wrapper">
+                                    <!-- <div class="customer-information-group">
+                                        <span>Khách hàng:</span>
+                                        <span>Văn Minh Hoàng</span>
+                                    </div>
+                                    <div class="customer-information-group">
+                                        <span>Số điện thoại</span>
+                                        <span>0584282407</span>
+                                    </div>
+                                    <div class="customer-information-group">
+                                        <span>Địa chỉ</span>
+                                        <span>14/17/16</span>
+                                    </div>
+                                    <div class="customer-information-group">
+                                        <span>Email</span>
+                                        <span>mr.minhoan@gmail.com </span>
+                                    </div>
+                                    <div class="customer-information-group">
+                                        <span>Phương thức thanh toán</span>
+                                        <span>Chuyển khoản</span>
+                                    </div> -->
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+            
+
+
+        </div>
+        <div class="footer">
+            <div class="grid wide">
+                <div class="row">
+                    <div class="col l-3">
+                        <h2 class="footer-title">Giới thiệu</h2>
+                        <p>Chào mừng bạn đến với ngôi nhà Converse! Tại đây, 
+                            mỗi một dòng chữ, mỗi chi tiết và hình ảnh đều 
+                            là những bằng chứng mang dấu ấn lịch sử Converse 100 năm, 
+                            và đang không ngừng phát triển lớn mạnh.
+                        </p>
+                    </div>
+
+                    <div class="col l-3">
+                        <h2 class="footer-title">ĐỊA CHỈ</h2>
+                        <div class = "footer__content">
+                            <i class='bx bxs-location-plus'></i>
+                            <span>319 C16 Lý Thường Kiệt, Phường 15, Quận 11, Tp.HCM</span>
+                        </div>
+
+                        <div class = "footer__content">
+                            <i class='bx bxs-phone-call' ></i>
+                            <a class="footer__content-call" href="tel:0769220162">076 922 0162</a>
+                        </div>
+                        <div class = "footer__content">
+                            <i class='bx bx-mail-send' ></i>
+                            <a  class="footer__content-mail" href="mailto:mr.minhoan@gmail.com">demonhunterg@gmail.com</a>
+                        </div>
+                        
+                    </div>
+
+                    <div class="col l-3">
+                        <h2 class="footer-title">MENU</h2>
+                    </div>
+
+                    <div class="col l-3">
+                        <h2 class="footer-title">MẠNG XÃ HỘI</h2>
+                        <div class="social">
+                            <a class="social__icon" href="#"><i class=' bx bxl-facebook'></i></a> 
+                            <a class="social__icon" href="#"><i class=' bx bxl-instagram-alt' ></i></a> 
+                            <a class="social__icon" href="#"><i class=' bx bxl-twitter' ></i></a> 
+                            <a class="social__icon" href="#"><i class=' bx bxl-pinterest-alt' ></i></a> 
+                            <a class="social__icon" href="#"><i class=' bx bx-rss' ></i></a> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./javascript/xulyOrderDetail.js" ></script>
+</body>
+</html>

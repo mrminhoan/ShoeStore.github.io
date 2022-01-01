@@ -1,0 +1,144 @@
+.container{
+    background:var(--white-color);
+    
+}
+/* CART PAGE */
+.main__cart{
+    background-color: var(--white-color);
+}
+.main__cart__information{
+    padding: 20px 15px;
+    width: 100%;
+    text-align: left;
+    border-right:1px solid #ccc ;
+}
+.main__cart-title{
+    color: var(--text-color);
+    display: flex;
+    text-align: left;
+    width: 100%;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+.cart__title-name{
+    flex: 3;
+}
+.cart__title-price{
+    flex: 1;
+}
+.cart__title-size{
+    flex: 1;
+}
+.cart__title-count{
+    flex: 1;
+}
+.cart__title-total{
+    flex: 1;
+}
+
+.main__cart-content{
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.main__cart-content-wrapper{
+    min-height: 75px;
+}
+
+.cart__content-product{
+    display: flex;
+    flex: 3;
+}
+.cart__content-product i{
+    font-size: 1.7rem;
+    align-self: center;
+    cursor: pointer;
+    transition:  transform linear .2s;
+}
+.cart__content-product i:hover{
+    opacity: 0.5;
+    transform: rotate(45deg);
+}
+.cart__content-product img{
+    max-width: 70px;
+    min-width: 50px;
+    height: auto;
+    width: 70px;
+}
+.cart__content-product span{
+    font-size: 1.5rem;
+    align-self: center;
+}
+.cart__content-price{
+    flex: 1;
+}
+.cart__content-size{
+    flex: 1;
+}
+.cart__content-count{
+    flex: 1;
+}
+.cart__content-count input{
+    max-width: 50px;
+}
+.cart__content-total{
+    flex: 1;
+}
+
+.main__cart__total-pay{
+    padding: 20px ;
+   
+}
+.main__cart__total-pay h3{
+    font-size: 1.4rem;
+    font-weight: 600;
+    padding-bottom: 5px;
+    border-bottom:1px solid #ccc ;
+}
+.total__current{
+    display: flex;
+    font-size: 1.3rem;
+    justify-content: space-between;
+    padding: 10px 0 5px;
+    border-bottom: 1px solid #ccc;
+}
+.ship{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.3rem;
+    padding: 10px 0 5px;
+    border-bottom: 1px solid #ccc;
+}
+
+.pay-btn{
+    margin-top: 10px;
+    width: 100%;
+    height: 35px;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    cursor: pointer;
+    border: none;
+}
+.pay-btn-link{
+    display: block;
+    width: 100%;
+}
+.pay-btn:hover{
+    opacity: 0.9;
+}
+.btn-update-cart{
+   padding: 10px;
+   background-color: var(--primary-color);
+   color: var(--white-color);
+   outline: none;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+}
+.btn-update-cart:hover{
+    filter: brightness(80%);
+}
+
+.total__current-wrapper p span{
+    font-size: 1.4rem;
+}
